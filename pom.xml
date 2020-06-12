@@ -11,7 +11,7 @@
 	<groupId>com.alibaba.yunxiao</groupId>
 	<artifactId>yunxiao_core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>yunxiao_core</name>
 	<description>Demo project for Spring Boot</description>
 
