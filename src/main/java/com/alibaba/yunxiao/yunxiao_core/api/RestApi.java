@@ -17,6 +17,12 @@ public class RestApi {
     }
 
 
+    @RequestMapping(value = "/concat")
+    public String getConcatString(@RequestParam(name = "first") String first, @RequestParam(name = "second") String second) {
+        PluginA pluginA = new PluginA();
+        return pluginA.concat(first, second);
+    }
+
     @RequestMapping(value = "/lower")
     public String getLowerString(@RequestParam(name = "origin") String origin) {
         PluginB pluginB = new PluginB();
