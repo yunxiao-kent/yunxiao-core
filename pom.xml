@@ -17,9 +17,10 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <yunxiao.plus1.version>1.1</yunxiao.plus1.version>
-        <yunxiao.plus2.version>1.1</yunxiao.plus2.version>
-        <yunxiao.common.version>1.0</yunxiao.common.version>
+        <version.code></version.code>
+        <yunxiao.plus1.version></yunxiao.plus1.version>
+        <yunxiao.plus2.version></yunxiao.plus2.version>
+        <yunxiao.common.version></yunxiao.common.version>
     </properties>
 
     <dependencies>
@@ -49,19 +50,19 @@
         <dependency>
             <groupId>com.alibaba.yunxiao</groupId>
             <artifactId>yunxiao_plus_1</artifactId>
-            <version>${yunxiao.plus1.version}</version>
+            <version>1.1${version.code}</version>
         </dependency>
 
         <dependency>
             <groupId>com.alibaba.yunxiao</groupId>
             <artifactId>yunxiao_plus_2</artifactId>
-            <version>${yunxiao.plus2.version}</version>
+            <version>1.1${version.code}</version>
         </dependency>
 
         <dependency>
             <groupId>com.alibaba.yunxiao</groupId>
             <artifactId>yunxiao_common</artifactId>
-            <version>${yunxiao.common.version}</version>
+            <version>1.0${version.code}</version>
         </dependency>
 
     </dependencies>
